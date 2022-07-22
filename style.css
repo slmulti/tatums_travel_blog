@@ -4,18 +4,31 @@
 
 h1{
     font-family: Arial;
+
 }
 
 h3{
-    font-family: Arial;
+    margin: .8rem;
+    font-size: 1rem;
 }
 
+.subheading{
+    border-bottom: 2px solid;
+}
+
+
 body{
-    background-color: grey;
+    background-color: rgb(210, 208, 208);
 }
 
 article{
     background-image: linear-gradient(white, grey);
+    border-radius: 8px;
+    padding: .1rem;
+    margin: 5px;
+    box-shadow: 1px 1px 3px grey;
+    padding-bottom: .8rem;
+
     
 }
 
@@ -23,10 +36,17 @@ header{
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
     color: white;
+    border-radius: 8px;
+    padding: .1rem;
+    
 }
 
 a{
     color: lightseagreen;
+    font-size: .8rem;
+    margin: .5rem;
+    text-decoration: none;
+    
 }
 
 /* this will back the links turn black when hovered over */
@@ -34,3 +54,29 @@ a{
 a:hover{
    background-color: black; 
 }
+
+img{
+    border-radius: 8px;
+    height: 30%;
+    margin-left: .5rem;
+    /* padding-left: 1rem;  
+    padding-right: 100%;
+    padding-bottom: 0.5rem; */
+          
+}
+
+div{
+    font-size: 12px;
+    text-align: left;
+    margin: .5rem;
+}
+
+p{
+    font-size: .8rem;
+    margin-left: .4rem;
+}
+
+#main-title{
+    margin-left: .4rem;
+}
+
